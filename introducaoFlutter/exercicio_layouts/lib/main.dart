@@ -23,7 +23,7 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Meu Perfil'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: const Color.fromARGB(255, 161, 107, 255),
         elevation: 5,
         actions: [
           IconButton(
@@ -68,7 +68,7 @@ class ProfileScreen extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
-                      color: Colors.deepPurple,
+                      color: const Color.fromARGB(255, 149, 87, 255),
                     ),
                   ),
                   SizedBox(height: 8),
