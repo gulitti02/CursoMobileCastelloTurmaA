@@ -1,4 +1,4 @@
-name: json_com_sharedp
+name: json_api_jsonserve
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -9,12 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.5.3
+  http: ^1.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
