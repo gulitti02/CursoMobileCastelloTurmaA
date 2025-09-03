@@ -7,7 +7,7 @@ class ApiService {
   // criar métodos de classe e não métodos de OBJ
   // permite uma maior segurança na solicitação de requisições http ou qualquer tipo de conexão de banco de dados
   // static -> significa que é metodos e atributos da classe e não do objeto
-  static const String _baseUrl = "http://10.109.197.13:3011"; //endereço
+  static const String _baseUrl = "http://10.109.197.8:3011"; //endereço
 
   //metodos da classe
   //metodo get -> pegar a lista de recurços
