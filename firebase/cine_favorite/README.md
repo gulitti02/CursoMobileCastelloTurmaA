@@ -64,7 +64,21 @@ class Movie {
 
 
 ```
+2. ### Diagrama de Uso
+ - teremos apenas o User 
+
+3. ### Diagrama de Fluxo
+
+ - 1° o usuario deve colocar seu email e senha e confirmar senha, se senha for === confirmar senha da inicio ao 2° passo.
+
+ - 2° após criar o usuario ele é redirecionado a o dashboard (caso contrario ele é redirecionado a tela de criação de senha dnv) ele procura o filme que ele desejar.
+
+ - 3° depois de achar o filme desejado (através do titulo e poster) ele pode favoritar o filme desejado e dar um rating(nota).
+
+ - 4° ele pode listar os livros favoritos e caso queira pode excluir o filme selecionado dos favoritos.
 
 ## Prototipagem
+
+- Colocar o link do figma
 
 ## Codificação
